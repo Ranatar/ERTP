@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"></meta>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <title>Eldamo : эльфийские шрифты</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <style>
+.tengwar-keyboard-layout th { text-align : center }
+.tengwar-keyboard-layout td { text-align : center }
+.tengwar-keyboard-layout .first td { width: 2.5em }
+    </style>
+</head>
+<body>
+<p>[<a href="../index.html">На главную страницу</a>]</p>
+<hr>
+<h1>Эльфийские шрифты</h1>
+<p>Эта страница посвящена использованию шрифтов тенгвара в этом лексиконе. Более детальное изложение тенгвара и его использования можно найти на сайте Манса Бьёркмана (Måns Björkman) <a href="http://at.boktypografen.se">Amanye Tenceli</a>. Как правило, квэнья в этом лексиконе записывается в <a href="../content/words/word-1631086235.html">классической системе</a>, а синдарине в <a href="../content/words/word-3930408025.html">системе Белерианда</a>.</p>
+<p>В настоящий момент единственное эльфийское письмо в данном лексиконе - это тенгвар с использованием варианта шрифта Манса Бьёркмана <i>Tengwar Eldamar</i>, который Бертранд Беллет (Bertrand Bellet) и Бенджамин Бабут модифицировали и преобразовали в веб-шрифт для своего сайта <a href="https://www.jrrvf.com/glaemscrafu/">Glǽmscrafu</a> (используется с их разрешения). Вот файл этого шрифта: <a href="../css/tengwar-eldamar-glaemscrafu.woff">tengwar-eldamar-glaemscrafu.woff</a>. Будучи веб-шрифтом, он может быть использован на веб-страницах и не требует отдельной установки в браузер пользователя.</p>
+<p>Основная часть записей тенгваром в этом лексиконе получена путём автоматизированной транскрипции с использованием <a href="https://github.com/BenTalagan/glaemscribe">Glaemscribe library</a> Бенджамина Бабута. Эта библиотека для Ruby и Javascript может (наряду с прочими функциями) переводить квэнья и синдарин в записи латиницей на тенгвар.</p>
+<h2>Соответствие тенгвара клавишам на клавиатуре</h2>
+<p>Большинство шриафтов тенгвара, включая <i>Tengwar Eldamar</i>, кодируют стандартные значки тенгвара на основе соответствия клавишам на клавиатуре, разработанном Дэниелем Смитом (Daniel Smith). Поскольку функции значков тенгвара различаются в зависимости от языка и используемой системы тенгвара, соответствие клавиатуре основано на физических характеристиках тенгвара, описанных в таблице тенгвара, которую Толкин составил в приложении E <i>Властелина колец</i> (LotR/1119). Для строчных букв используется таблица тенгвара из приложения E, свёрнутая горизонтально в стандартную последовательность qwerty на клавиатуре:</p>
+<center>
+<table class="tengwar-keyboard-layout">
+<tr><th colspan="100">Строчные буквы</th></tr>
+<tr class="first">
+<td colspan="2"><span class="tengwar">`</span><br/><span style="color:grey">`</span></td>
+<td colspan="2"><span class="tengwar">1</span><br/><span style="color:grey">1</span></td>
+<td colspan="2"><span class="tengwar">2</span><br/><span style="color:grey">2</span></td>
+<td colspan="2"><span class="tengwar">3</span><br/><span style="color:grey">3</span></td>
+<td colspan="2"><span class="tengwar">4</span><br/><span style="color:grey">4</span></td>
+<td colspan="2"><span class="tengwar">5</span><br/><span style="color:grey">5</span></td>
+<td colspan="2"><span class="tengwar">6</span><br/><span style="color:grey">6</span></td>
+<td colspan="2"><span class="tengwar">7</span><br/><span style="color:grey">7</span></td>
+<td colspan="2"><span class="tengwar">8</span><br/><span style="color:grey">8</span></td>
+<td colspan="2"><span class="tengwar">9</span><br/><span style="color:grey">9</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>0</span><br/><span style="color:grey">0</span></td>
+<td colspan="2"><span class="tengwar">-</span><br/><span style="color:grey">-</span></td>
+<td colspan="2"><span class="tengwar">=</span><br/><span style="color:grey">=</span></td>
+<td colspan="2"><span class="tengwar">\</span><br/><span style="color:grey">\</span></td>
+</tr>
+<tr>
+<td colspan="3">&#160;</td>
+<td colspan="2"><span class="tengwar">q</span><br/><span style="color:grey">q</span></td>
+<td colspan="2"><span class="tengwar">w</span><br/><span style="color:grey">w</span></td>
+<td colspan="2"><span class="tengwar">e</span><br/><span style="color:grey">e</span></td>
+<td colspan="2"><span class="tengwar">r</span><br/><span style="color:grey">r</span></td>
+<td colspan="2"><span class="tengwar">t</span><br/><span style="color:grey">t</span></td>
+<td colspan="2"><span class="tengwar">y</span><br/><span style="color:grey">y</span></td>
+<td colspan="2"><span class="tengwar">u</span><br/><span style="color:grey">u</span></td>
+<td colspan="2"><span class="tengwar">i</span><br/><span style="color:grey">i</span></td>
+<td colspan="2"><span class="tengwar">o</span><br/><span style="color:grey">o</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>p</span><br/><span style="color:grey">p</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>[</span><br/><span style="color:grey">[</span></td>
+<td colspan="2" style="width: 2.5em"><span class="tengwar">]</span><br/><span style="color:grey">]</span></td>
+<td colspan="1">&#160;</td>
+</tr>
+<tr>
+<td colspan="4">&#160;</td>
+<td colspan="2"><span class="tengwar">a</span><br/><span style="color:grey">a</span></td>
+<td colspan="2"><span class="tengwar">s</span><br/><span style="color:grey">s</span></td>
+<td colspan="2"><span class="tengwar">d</span><br/><span style="color:grey">d</span></td>
+<td colspan="2"><span class="tengwar">f</span><br/><span style="color:grey">f</span></td>
+<td colspan="2"><span class="tengwar">g</span><br/><span style="color:grey">g</span></td>
+<td colspan="2"><span class="tengwar">h</span><br/><span style="color:grey">h</span></td>
+<td colspan="2"><span class="tengwar">j</span><br/><span style="color:grey">j</span></td>
+<td colspan="2"><span class="tengwar">k</span><br/><span style="color:grey">k</span></td>
+<td colspan="2"><span class="tengwar">l</span><br/><span style="color:grey">l</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>;</span><br/><span style="color:grey">;</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>'</span><br/><span style="color:grey">'</span></td>
+<td colspan="2">&#160;</td>
+</tr>
+<tr>
+<td colspan="5">&#160;</td>
+<td colspan="2"><span class="tengwar">z</span><br/><span style="color:grey">z</span></td>
+<td colspan="2"><span class="tengwar">x</span><br/><span style="color:grey">x</span></td>
+<td colspan="2"><span class="tengwar">c</span><br/><span style="color:grey">c</span></td>
+<td colspan="2"><span class="tengwar">v</span><br/><span style="color:grey">v</span></td>
+<td colspan="2"><span class="tengwar">b</span><br/><span style="color:grey">b</span></td>
+<td colspan="2"><span class="tengwar">n</span><br/><span style="color:grey">n</span></td>
+<td colspan="2"><span class="tengwar">m</span><br/><span style="color:grey">m</span></td>
+<td colspan="2"><span class="tengwar">,</span><br/><span style="color:grey">,</span></td>
+<td colspan="2"><span class="tengwar">.</span><br/><span style="color:grey">.</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>/</span><br/><span style="color:grey">/</span></td>
+<td colspan="3">&#160;</td>
+</tr>
+</table>
+</center>
+<p>В вышеприведённой таблице <b>чёрные</b> значки обозначают буквы тенгвара, <b><span style="color:grey">серые</span></b> значки соответствуют буквам латиницы на клавиатуре, а <b><span style="color:red">красные</span></b> значки представляют собой шаблоны, иллюстрирующие размещение знаков для техт (см. ниже). Верхняя строка - это t-серия (<i>tincotéma</i>), вторая - p-серия (<i>parmatéma</i>), третья -  k-серия (<i>calmatéma</i>) и наконец нижняя строка - q-серия (<i>quessetéma</i>). “Столбцы” underneath each number correspond to the number “grades” (<i>tyeller</i>) from Tolkien’s tengwar chart (1-9).</p>
+<p><b>Tehta:</b> The tehta are marks appearing above and below tengwar characters, usually indicating vowels. In general linguistic termininology, such marks are called diacritics. The characters and keyboard layouts for tengwar was established many years ago before font technology could effectively
+handle combining diacritic marks. As such, most tehta have 4 different keyboard mappings that manually control the placement of the tehta over the tengwa it modifies. The four mappings are for (1) wide tengwar, (2) medium tengwar, (3) tengwar with long upward stems, and (4) narrow tengwar. The diagram below illustrates the uppercase character mappings for tehta, with placeholders that indicate which tehta-mapping should be used for a given tengwa:</p>
+<center>
+<table class="tengwar-keyboard-layout">
+<tr><th colspan="100">Uppercase Characters</th></tr>
+<tr class="first">
+<td colspan="2"><span class="tengwar">~</span><br/><span style="color:grey">~</span></td>
+<td colspan="2"><span class="tengwar">!</span><br/><span style="color:grey">!</span></td>
+<td colspan="2"><span class="tengwar">@</span><br/><span style="color:grey">@</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">2</span>#</span><br/><span style="color:grey">#</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">2</span>$</span><br/><span style="color:grey">$</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">2</span>%</span><br/><span style="color:grey">%</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">2</span>^</span><br/><span style="color:grey">^</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">2</span>&</span><br/><span style="color:grey">&</span></td>
+<td colspan="2"><span class="tengwar">*</span><br/><span style="color:grey">*</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">2</span>(</span><br/><span style="color:grey">(</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">2</span>)</span><br/><span style="color:grey">)</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">j</span>_</span><br/><span style="color:grey">_</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>+</span><br/><span style="color:grey">+</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">a</span>|</span><br/><span style="color:grey">|</span></td>
+</tr>
+<tr>
+<td colspan="3">&#160;</td>
+<td colspan="2"><span class="tengwar">Q</span><br/><span style="color:grey">Q</span></td>
+<td colspan="2"><span class="tengwar">W</span><br/><span style="color:grey">W</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>E</span><br/><span style="color:grey">E</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>R</span><br/><span style="color:grey">R</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>T</span><br/><span style="color:grey">T</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>Y</span><br/><span style="color:grey">Y</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>U</span><br/><span style="color:grey">U</span></td>
+<td colspan="2"><span class="tengwar">I</span><br/><span style="color:grey">I</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">1</span>O</span><br/><span style="color:grey">O</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">2</span>P</span><br/><span style="color:grey">P</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">2</span>{</span><br/><span style="color:grey">{</span></td>
+<td colspan="2" style="width: 2.5em"><span class="tengwar"><span style="color:red">`</span>}</span><br/><span style="color:grey">}</span></td>
+<td colspan="1">&#160;</td>
+</tr>
+<tr>
+<td colspan="4">&#160;</td>
+<td colspan="2"><span class="tengwar">A</span><br/><span style="color:grey">A</span></td>
+<td colspan="2"><span class="tengwar">S</span><br/><span style="color:grey">S</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">3</span>D</span><br/><span style="color:grey">D</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">3</span>F</span></span><br/><span style="color:grey">F</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">3</span>G</span></span><br/><span style="color:grey">G</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">3</span>H</span></span><br/><span style="color:grey">H</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">3</span>J</span></span><br/><span style="color:grey">J</span></td>
+<td colspan="2"><span class="tengwar">K</span><br/><span style="color:grey">K</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">j</span>L</span><br/><span style="color:grey">L</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">2</span>:</span><br/><span style="color:grey">:</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">2</span>"</span><br/><span style="color:grey">"</span></td>
+<td colspan="2">&#160;</td>
+</tr>
+<tr>
+<td colspan="5">&#160;</td>
+<td colspan="2"><span class="tengwar">Z</span><br/><span style="color:grey">Z</span></td>
+<td colspan="2"><span class="tengwar">X</span><br/><span style="color:grey">X</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">`</span>C</span><br/><span style="color:grey">C</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">`</span>V</span><br/><span style="color:grey">V</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">`</span>B</span><br/><span style="color:grey">B</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">`</span>N</span><br/><span style="color:grey">N</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">`</span>M</span><br/><span style="color:grey">M</span></td>
+<td colspan="2"><span class="tengwar">&lt;</span><br/><span style="color:grey">&lt;</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">`</span>&gt;</span><br/><span style="color:grey">&gt;</span></td>
+<td colspan="2"><span class="tengwar"><span style="color:red">2</span>?</span><br/><span style="color:grey">?</span></td>
+<td colspan="3">&#160;</td>
+</tr>
+</table>
+</center>
+<p>The tehta character always is placed after the tengwa character it modifies. As noted above, you should chose the tehta character appropriate to the width of your tengwa character: 2# = <span class="tengwar">2#</span> (<span class="tengwar">2</span> + <span class="tengwar">&#160;C</span>); 1E = <span class="tengwar">1E</span> (<span class="tengwar">1</span> + <span class="tengwar">&#160;C</span>); 3D = <span class="tengwar">3D</span>; (<span class="tengwar">3</span> + <span class="tengwar">&#160;C</span>); `C = <span class="tengwar">`C</span>; (<span class="tengwar">`</span> + <span class="tengwar">&#160;C</span>). Choosing the wrong tehta key-mapping results in an out-of-place tehta: 2C = <span class="tengwar">2C</span>, 2D = <span class="tengwar">2D</span>, 2E = <span class="tengwar">2E</span>.</p>
+<p><b>Copying Tengwar:</b> The mappings above are common to most tengwar fonts and if copied to a different font, should display correctly. When you copy tengwar from this lexicon into a document, you will probably see what appears to be gibberish, for example <span class="tengwar">`Cf#jTt$</span> (<i>Ancalimë</i>) becoming `Cf#jTt$. However, if you change the font to one of the Tengwar fonts based on Dan Smith’s keyboard layout, it should display correctly.</p>
+<p>Rather than copying tengwar directly from this lexicon, though, I strongly recommend writing out your text using normal English (Latin) characters, and then using a transcription tool to convert it to tengwar, such as Benjamin Babut’s web-based <a href="https://www.jrrvf.com/glaemscrafu/english/glaemscribe.html">Glaemscribe tool</a> or the (easier to use) <a href="https://www.tecendil.com/">Tecendil</a> website.</p>
+</body>
+</html>
